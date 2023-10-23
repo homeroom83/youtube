@@ -10,16 +10,43 @@ body {
 	position: fixed;
 	background-color: black;
 	margin: 0;
+	padding: 0 16px;
 }
 
-#change {
-	width: 30px;
-	height: 30px;
-	position: fixed;
-	left: 10px;
-	top: 10px;
-	background-image: url(./images/youtube/menu.png);
-	background-size: cover;
+#top #topLeft {
+	width: 169px;
+	height: 56px;
+}
+
+#top #topLeft #change {
+	width: 40px;
+	height: 40px;
+	padding: 8px;
+	display: inline-block;
+	box-sizing: border-box;
+}
+
+#top #topLeft #change img {
+	width: 24px;
+	height: 24px;
+	filter: invert(100%);
+}
+
+#top #topLeft #youtubeLogo {
+	width: 120px;
+	height: 56px;
+	padding: 18px 14px 18px 16px;
+	display: inline-block;
+	box-sizing: border-box;
+}
+
+#top #topLeft #youtubeLogo #logo1 {
+	/* width: 30px; */
+	height: 20px;
+}
+#top #topLeft #youtubeLogo #logo2 {
+	/* width: 60px; */
+	height: 20px;
 	filter: invert(100%);
 }
 
@@ -31,7 +58,6 @@ body {
 	margin: 0;
 	overflow-y: scroll;
 	box-sizing: border-box;
-
 }
 
 #left ul {
@@ -51,10 +77,9 @@ body {
 }
 
 #left li:hover {
-	background-color: #3C3C3C;
+	background-color: #3c3c3c;
 	border-radius: 8px;
 	cursor: pointer;
-
 }
 
 #left #left01 {
@@ -181,7 +206,7 @@ body {
 }
 
 #mid #button div:hover {
-	background-color: #4F4F4F;
+	background-color: #4f4f4f;
 	cursor: pointer;
 }
 
@@ -256,12 +281,12 @@ body {
 
 #bottom .video .video-info .video-description .youtuber a {
 	font-size: 14px;
-	color: #9D9D9D;
+	color: #9d9d9d;
 	text-decoration: none;
 }
 
 #bottom .video .video-info .video-description span {
 	font-size: 14px;
-	color: #9D9D9D;
+	color: #9d9d9d;
 	text-decoration: none;
 }
