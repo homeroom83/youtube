@@ -16,6 +16,13 @@ body {
 #top #topLeft {
 	width: 169px;
 	height: 56px;
+	font-size: 0;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#top #topLeft:hover {
+	cursor: pointer;
 }
 
 #top #topLeft #change {
@@ -41,13 +48,63 @@ body {
 }
 
 #top #topLeft #youtubeLogo #logo1 {
-	/* width: 30px; */
 	height: 20px;
+	margin-right: 3px;
 }
 #top #topLeft #youtubeLogo #logo2 {
-	/* width: 60px; */
 	height: 20px;
 	filter: invert(100%);
+}
+
+#top #topLeft #TW {
+	height: 44px;
+	font-size: 10px;
+	color: #aaaaaa;
+	font-family: 'Roboto', Arial, sans-serif;
+	margin: 12px 0 0 -10px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#top #topMiddle {
+	width: 732px;
+	height: 40px;
+	margin-left: 56px;
+	display: inline-block;
+	line-height: 56px;
+}
+
+#top #topMiddle #search {
+	width: 640px;
+	height: 40px;
+	display: inline-block;
+	margin-left: 40px;
+	padding: 0 4px;
+}
+
+#top #topMiddle #search #inputText {
+	width: 515px;
+	height: 40px;
+	margin-left: 32px;
+	padding: 0 4px 0 16px;
+}
+
+#top #topMiddle #search #inputText input {
+	width: 515px;
+	height: 40px;
+	box-sizing: border-box;
+	background-color: black;
+	border-top-left-radius: 40px;
+	border-bottom-left-radius: 40px;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+	border: 1px solid #444444;
+	color: #888888;
+	padding: 1px;
+}
+
+#top #topMiddle #speaker {
+	display: inline-block;
 }
 
 #left {
@@ -154,25 +211,35 @@ body {
 #left #left08-1 {
 	height: 53px;
 	box-sizing: border-box;
-	padding: 16px 24px 0px 24px;
+	padding: 16px 15px 0px 24px;
 	color: #adadad;
 }
 
 #left #left08-1 span {
+	font-family: 'Roboto', 'Arial', sans-serif;
 	font-size: 13px;
-	margin-right: 8px;
+	margin-right: 4px;
+}
+
+#left #left08-1 span:hover {
+	cursor: pointer;
 }
 
 #left #left08-2 {
 	height: 48px;
 	box-sizing: border-box;
-	padding: 12px 24px 0px 24px;
+	padding: 16px 15px 0px 24px;
 	color: #adadad;
 }
 
 #left #left08-2 span {
+	font-family: 'Roboto', 'Arial', sans-serif;
 	font-size: 13px;
-	margin-right: 8px;
+	margin-right: 4px;
+}
+
+#left #left08-2 span:hover {
+	cursor: pointer;
 }
 
 #mid {
